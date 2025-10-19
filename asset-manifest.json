@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c1036b2.css",
-    "main.js": "/static/js/main.84adde4f.js",
+    "main.css": "/static/css/main.955fe12e.css",
+    "main.js": "/static/js/main.8dc81058.js",
     "static/media/pfp.png": "/static/media/pfp.a2165e79f030814c0542.png",
     "static/media/Picture6.png": "/static/media/Picture6.170885ccf3f8679447d4.png",
     "static/media/review3.png": "/static/media/review3.0c4f043204bfc03c8120.png",
@@ -19,11 +19,11 @@
     "static/media/cairo-latin-ext-400-normal.woff": "/static/media/cairo-latin-ext-400-normal.ee585dee436c5f3a7547.woff",
     "static/media/cairo-latin-ext-400-normal.woff2": "/static/media/cairo-latin-ext-400-normal.32c4aa2581621bf09b6f.woff2",
     "index.html": "/index.html",
-    "main.0c1036b2.css.map": "/static/css/main.0c1036b2.css.map",
-    "main.84adde4f.js.map": "/static/js/main.84adde4f.js.map"
+    "main.955fe12e.css.map": "/static/css/main.955fe12e.css.map",
+    "main.8dc81058.js.map": "/static/js/main.8dc81058.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c1036b2.css",
-    "static/js/main.84adde4f.js"
+    "static/css/main.955fe12e.css",
+    "static/js/main.8dc81058.js"
   ]
 }
