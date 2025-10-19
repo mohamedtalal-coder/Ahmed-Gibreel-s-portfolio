@@ -1,0 +1,74 @@
+/* Card styling */
+.card {
+  border: 1px solid rgba(255, 215, 0, 0.2); /* soft golden border */
+  border-radius: 20px;
+  background: rgba(20, 20, 20, 0.6); /* subtle dark background */
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.1); /* faint yellow glow */
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+}
+
+/* Hover effect — gentle pop and glow */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 230, 90, 0.35); /* brighter golden glow */
+  background-color: rgba(40, 40, 20, 0.8); /* dark background with warm tint */
+}
+
+/* YouTube iframe rounding */
+.card iframe {
+  border-radius: 15px;
+}
+
+/* Button styling */
+.btn {
+  background-color: #ffcc00 !important; /* warm gold instead of purple */
+  border: none !important;
+  color: #111 !important;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffe45c !important; /* lighter gold on hover */
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(255, 230, 90, 0.5); /* soft golden glow */
+}
+
+/* Card text */
+.card-title {
+  font-weight: 600;
+  color: #fff7d0; /* warm pale yellow */
+}
+
+.card-subtitle {
+  color: #d9c97a; /* muted gold accent */
+}
+
+.card-text {
+  color: #f5f5dc; /* soft beige for readability */
+}
+
+/* Optional: smooth fade-in when cards load */
+.card {
+  opacity: 0;
+  animation: fadeInCard 0.8s ease forwards;
+}
+
+@keyframes fadeInCard {
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-weight: 600;
+  color: #fff7d0; /* warm yellow-white heading */
+}
+
+@media (max-width:430px) {
+  .card{
+    width: 100% !important;
+    margin: auto;
+    
+  }
+}

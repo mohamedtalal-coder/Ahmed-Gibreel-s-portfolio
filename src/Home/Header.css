@@ -1,0 +1,21 @@
+
+.header-section {
+  font-family: "Tajawal", sans-serif; /* Arabic-friendly font */
+}
+
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+  background-color: #f9c600;
+  color: #000;
+  border-color: #f9c600;
+}
+
+.img-home{
+  width: 300px;
+}
+
